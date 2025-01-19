@@ -1,12 +1,13 @@
 import React from "react";
     import "../index.css";
+	import logo from "../data/logo-bg.png";
     import { Link } from "react-router-dom";
 
     function Navbar({ isDarkMode, toggleTheme }) {
       return (
         <nav className="navbar">
           <div className="logo-container">
-            <img src="" alt="Logo" className="logo" />
+            <img src={logo} alt="Logo" className="logo" />
           </div>
           <ul className="nav-links">
             <li>
